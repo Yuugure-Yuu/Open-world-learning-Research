@@ -73,3 +73,16 @@ Heuristic search also claims that AI learning must includes structures storing c
 3.Use generic characteristics as architecture constraints that includes four long-term knowledge contents to characterize the environment in a descriptive way. also needs short-term structures to describe past, present, and current situations and events. And this declarative structures is ambiguous, thus a complete content-laden architecture also needs how the AI system is drived, which also includes four mechanisms.
 
 4.prescriptive knowledge structures includes processes of operating those contents. updating Motivations may have unexpored unknown impacts on the agents but there are some mechanisms to support this. and will make evaluation difficult. A choice is to ensure gradual changes in motivation.
+
+
+
+### Learning from Synthetic Data Addressing Domain Shift for Semantic
+
+Visual Domain Adaptation is a problem of immense importance in computer vision. Previous approaches showcase the inability of even deep neural networks to learn informative representations across domain shift. This problem is more severe for tasks where acquiring hand labeled data is extremely hard and tedious. In this work, we focus on adapting the representations learned by segmentation networks across synthetic and real domains. Contrary to previous approaches that use a simple adversarial objective or superpixel information to aid the process, we propose an approach based on Generative Adversarial Networks (GANs) that brings the embeddings closer in the learned feature space. To showcase the generality and scalability of our approach, we show that we can achieve state of the art results on two challenging scenarios of synthetic to real domain adaptation.Additional exploratory experiments show that our approach: (1) generalizes to unseen domains and (2) results in improved alignment of source and target distributions.
+
+视觉域适应是计算机视觉中一个非常重要的问题。以前的方法表明，即使是深度神经网络也无法跨域学习信息表示。这个问题在获取手工标注的数据极其困难和繁琐的任务中更为严重。在这项工作中，我们着重于在合成域和真实域中调整分段网络学习的表示。与以往使用简单的对抗目标或超像素信息来辅助过程的方法相反，我们提出了一种基于生成对抗网络(GANs)的方法，使嵌入更接近于学习的特征空间。为了展示我们的方法的通用性和可伸缩性，我们展示了我们可以在两个具有挑战性的从合成到真实领域适应的场景中实现最先进的结果。进一步的探索性实验表明，我们的方法:(1)可以推广到不可见域，(2)可以改善源和目标分布的对齐。
+
+这篇论文中的检验手法在许多方面可疑，包括基准线选择、参照方法数量不足、检验领域不足（是否本就是相近领域？）等。
+
+
+
