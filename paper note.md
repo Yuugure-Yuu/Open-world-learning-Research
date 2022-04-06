@@ -86,3 +86,16 @@ Visual Domain Adaptation is a problem of immense importance in computer vision. 
 
 
 
+### Science Birds Novelty: an Open-world Learning Test-bed for Physics Domains
+
+Successfully operating in open worlds is a hallmark of human intelligence but still remains a major challenge to modern Artificial Intelligence (AI) systems. With the increasing reliance on autonomous systems (e.g. self-driving vehicles, vacuuming robots), being able to handle unforeseen situations has become a crucial ability for any AI agent that can safely and effectively operate alongside humans. As to facilitate the research in developing agents that are capable of reacting to unexpected events, we propose a test-bed named Science Birds Novelty based on the Angry Birds domain. We also demonstrate a use-case of our test-bed, the AIBIRDS Competition Novelty Track and present the results of the competition. 
+
+在开放世界中成功运行是人类智能的标志，但仍然是现代人工智能(AI)系统面临的主要挑战。随着人们对自动驾驶系统(如自动驾驶汽车、吸尘机器人)的依赖日益增加，对于任何能够安全和有效地与人类一起操作的人工智能代理来说，能够处理不可预见的情况已经成为一项至关重要的能力。为了促进开发能够对突发事件做出反应的agent的研究，我们基于《愤怒的小鸟》领域提出了一个名为Science Birds Novelty的试验台。我们还演示了我们的测试平台——AIBIRDS竞赛新颖性跟踪的一个用例，并展示了竞赛的结果。
+
+
+
+### RMA: Rapid Motor Adaptation for Legged Robots
+
+Successful real-world deployment of legged robots would require them to adapt in real-time to unseen scenarios like changing terrains, changing payloads, wear and tear. This paper presents Rapid Motor Adaptation (RMA) algorithm to solve this problem of real-time online adaptation in quadruped robots. RMA consists of two components: a base policy and an adaptation module. The combination of these components enables the robot to adapt to novel situations in fractions of a second. RMA is trained completely in simulation without using any domain knowledge like reference trajectories or predefined foot trajectory generators and is deployed on the A1 robot without any fine-tuning. We train RMA on a varied terrain generator using bioenergetics-inspired rewards and deploy it on a variety of difficult terrains including rocky, slippery, deformable surfaces in environments with grass, long vegetation, concrete, pebbles, stairs, sand, etc. RMA shows state-of-the-art performance across diverse real-world as well as simulation experiments. Video results at https://ashish-kmr.github.io/rma-legged-robots/.
+
+在现实世界中，腿部机器人的成功部署要求它们能够实时适应看不见的场景，如地形变化、载荷变化、磨损等。针对四足机器人的实时在线自适应问题，提出了一种快速电机自适应(RMA)算法。RMA由两个组件组成:一个基本策略和一个适应模块。这些组件的组合使机器人能够在几分之一秒内适应新的情况。RMA完全在模拟中训练，没有使用任何领域知识，如参考轨迹或预定义的脚轨迹生成器，部署在A1机器人上，没有任何微调。我们训练RMA在一个不同的地形生成器使用生物能量启发奖励，并部署它在各种困难的地形，包括岩石，湿滑，变形表面的环境，草，长植被，混凝土，鹅卵石，楼梯，沙子等。RMA在不同的真实世界以及模拟实验中显示了最先进的性能。视频结果在https://ashish-kmr.github.io/rma-legged-robots/。
