@@ -1,2 +1,2 @@
 # Open-world-learning
-Some resources for open world learning.
+Some papers for open world learning and a half research report.
